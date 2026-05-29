@@ -30,7 +30,7 @@ if st.button("Predict"):
 
             try:
                 response = requests.post(
-                    f"{API_URL}",
+                    f"{API_URL}/predict",
                     json={"content": email_content}
                 )
 

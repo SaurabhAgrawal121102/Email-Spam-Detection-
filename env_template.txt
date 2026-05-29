@@ -1,20 +1,20 @@
 # Project root
-PROJECT_ROOT = "Project_root_directory_path"
+PROJECT_ROOT=project_root
 
 # Dataset name
-DATASET_NAME = "spam.csv"
+DATASET_NAME=dataset
 
 # Output directory
-MODEL_DIR = "model_dir"
-Log_DIR = "logs"
+MODEL_DIR=model_dir
+LOG_DIR=logs_dir
 
 # Model filename
-MODEL_FILENAME = "model_spam.joblib"
-LOG_NAME = "app.log"
+MODEL_FILENAME=model_file_name
+LOG_NAME=app.log
 
 # Training Config.
-TARGET_COLUMN = "v1"
-TEST_SIZE = 0.2
-RANDOM_STATE = 42
+TARGET_COLUMN=target_column
+TEST_SIZE=0.2
+RANDOM_STATE=42
 
-API_URL = api_endpoint_url
+API_URL=api_endpoint_url
