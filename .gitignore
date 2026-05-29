@@ -13,8 +13,8 @@ logs/
 .env
 
 # ML artifacts
-*.joblib
-*.pkl
+# *.joblib
+# *.pkl
 
 # Streamlit cache
 .streamlit/
